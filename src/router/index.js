@@ -45,6 +45,12 @@ const routes = [
     component: () =>
     import("../views/contact/Contact.vue"),
   },
+  {
+    path: "/carousel",
+    name: "Carousel",
+    component: () =>
+      import("../components/share/Carousel.vue"),
+  },
 ];
 
 const router = createRouter({

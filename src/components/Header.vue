@@ -61,7 +61,7 @@
                     py-2
                     px-4
                   "
-                  >Home</router-link
+                  >Anasayfa</router-link
                 >
               </li>
               <li>
@@ -75,7 +75,7 @@
                     py-2
                     px-4
                   "
-                  >Product</router-link
+                  >Ürünler</router-link
                 >
               </li>
               <li>
@@ -89,7 +89,7 @@
                     py-2
                     px-4
                   "
-                  >About</router-link
+                  >Hakkımızda</router-link
                 >
               </li>
               <li>
