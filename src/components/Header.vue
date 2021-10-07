@@ -12,6 +12,7 @@
           mt-0
           px-6
           py-3
+          
         "
       >
         <label for="menu-toggle" class="cursor-pointer md:hidden block">
