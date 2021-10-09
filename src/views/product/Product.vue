@@ -1,15 +1,20 @@
 <template>
-  <div class="product">
-    <h1>Product</h1>
-
-    <router-link to="/product" class="hover:text-indigo-500">Product Left</router-link> |
-    <router-link to="/product/productMid" class="hover:text-indigo-500">Product Mid</router-link> |
-    <router-link to="/product/productRight" class="hover:text-indigo-500">Product Right</router-link>
-
-    <router-view />
-  </div>
+  <section class="w-full bg-gray-800 dark:bg-gray-100 product">
+    <div class="container py-8 mx-auto">
+      <div class="lg:flex lg:-mx-2">
+        <LeftMenu />
+        <router-view />
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
-export default {};
+import LeftMenu from "@/components/share/LeftMenu";
+export default {
+  name: "Product",
+  components: {
+    LeftMenu,
+  },
+};
 </script>

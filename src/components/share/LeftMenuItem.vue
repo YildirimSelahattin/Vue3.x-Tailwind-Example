@@ -1,0 +1,24 @@
+<template>
+    <p
+      class="
+        block
+        pb-8
+        p-2
+        font-base
+        text-gray-300
+        dark:text-gray-300
+        hover:underline
+      "
+    >
+      {/{LeftMenuItems}}
+    </p>
+</template>
+
+<script>
+export default {
+  name: "LeftMenuItem",
+  components: {},
+};
+</script>
+
+<style></style>

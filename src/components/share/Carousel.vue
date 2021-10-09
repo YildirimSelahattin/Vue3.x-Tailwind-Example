@@ -28,7 +28,7 @@
           "
           style="
             max-width: 1600px;
-            background-image: url('../img/standard.jfif');
+            background-image: url('../img/standart.jfif');
           "
         >
           <div class="container mx-auto">
@@ -49,6 +49,8 @@
                   bg-black
                   rounded-2xl
                   p-2
+                  pl-7
+                  sm:pl-2
                   bg-opacity-20
                   text-3xl
                   my-4
