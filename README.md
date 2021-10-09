@@ -1,6 +1,6 @@
 # mgs
 ### Demo:
-https://vue3x-tailwind-example-lv6srstra-yildirimselahattin.vercel.app
+https://vue3x-tailwind-example-yildirimselahattin.vercel.app/
 ## Project setup
 ```
 npm install
