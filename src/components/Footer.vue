@@ -1,8 +1,12 @@
 <template>
   <div class="footer">
-    <footer class="bg-gray-900 h-full mx-auto border-t-2 border-yellow-600" 
-    :class="[
-      $route.name == 'About' ? 'bg-gray-900 h-full mx-auto border-t-2 border-yellow-600' : '']"
+    <footer
+      class="bg-gray-900 h-full mx-auto border-t-2 border-yellow-600"
+      :class="[
+        $route.name == 'About'
+          ? 'bg-gray-900 h-full mx-auto border-t-2 border-yellow-600'
+          : '',
+      ]"
     >
       <div class="flex px-3 pb-8">
         <div class="w-full mx-auto flex flex-wrap">
@@ -51,7 +55,7 @@
       </div>
       <div class="flex justify-center pt-4 items-center">
         <p class="flex text-gray-600 text-sm mb-1">
-          © Copyright 2021 mgsmobilya.net power by&nbsp;<a
+          Designed and built with by&nbsp;<a
             rel="license"
             class="text-pink-700"
             href="https://github.com/YildirimSelahattin"

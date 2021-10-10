@@ -1,16 +1,17 @@
 <template>
-  <div class="home">
-    <Carousel/>
+  <div class="home bg-gray-800">
+    <Carousel />
   </div>
 </template>
 
 <script>
-import Carousel from '@/components/share/Carousel'
+import Carousel from "@/components/share/Carousel";
+
 export default {
-  name : "Home",
+  name: "Home",
   components: {
     Carousel
-  }
+  },
 };
 </script>
 
