@@ -1,10 +1,10 @@
 <template>
   <div class="footer">
     <footer
-      class="bg-gray-900 h-full mx-auto border-t-2 border-yellow-600"
+      class="bg-gray-900 h-full mx-auto border-t-2 border-yellow-700"
       :class="[
         $route.name == 'About'
-          ? 'bg-gray-900 h-full mx-auto border-t-2 border-yellow-600'
+          ? 'bg-gray-900 h-full mx-auto border-t-2 border-yellow-700'
           : '',
       ]"
     >

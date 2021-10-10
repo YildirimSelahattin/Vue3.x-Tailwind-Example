@@ -52,7 +52,7 @@
             >
               <li>
                 <router-link
-                  to="./home"
+                  to="/"
                   class="
                     inline-block
                     no-underline

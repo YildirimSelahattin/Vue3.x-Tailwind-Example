@@ -184,7 +184,7 @@
                   <span
                     class="
                       hidden
-                      flex-shrink-0 flex
+                      flex-shrink-0 /flex
                       items-center
                       justify-center
                       h-6
