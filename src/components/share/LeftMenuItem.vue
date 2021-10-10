@@ -6,7 +6,7 @@
         p-2
         font-base
         text-gray-300
-        dark:text-gray-300
+        dark:text-gray-800
         hover:underline
       "
     >

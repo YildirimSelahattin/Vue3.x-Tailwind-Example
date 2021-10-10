@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav id="header" class="w-full z-30 top-0 py-1 bg-gray-900">
+    <nav id="header" class="w-full z-30 top-0 py-1 border-b-2 border-yellow-700 dark:border-yellow-600 dark:bg-gray-100 bg-gray-900">
       <div
         class="
           w-full
@@ -28,7 +28,6 @@
           </svg>
         </label>
         <input class="hidden" type="checkbox" id="menu-toggle" />
-
         <div
           class="
             hidden
@@ -45,7 +44,8 @@
                 md:flex
                 items-center
                 justify-between
-                text-base text-gray-700
+                text-base
+                font-semibold text-gray-700
                 pt-4
                 md:pt-0
               "
@@ -106,13 +106,16 @@
                   >İletişim</router-link
                 >
               </li>
+              <li class="mt-3 ml-4">
+                        <Toggle/>
+              </li>
             </ul>
           </nav>
         </div>
 
         <div class="">
           <router-link
-            to="/home"
+            to="/"
             class="
               flex
               items-center
@@ -131,8 +134,12 @@
 </template>
 
 <script>
+import Toggle from "@/components/share/Toggle";
 export default {
   name: "MainHeader",
+    components: {
+    Toggle,
+  },
 };
 </script>
 

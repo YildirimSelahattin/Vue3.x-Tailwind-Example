@@ -74,6 +74,7 @@
           md:ml-10
           absolute
           bg-yellow-700
+          dark:bg-yellow-600
           cursor-pointer
           hidden
           text-3xl
@@ -102,6 +103,7 @@
           md:mr-10
           absolute
           bg-yellow-700
+          dark:bg-yellow-600
           cursor-pointer
           hidden
           text-3xl
@@ -187,6 +189,7 @@
           md:ml-10
           absolute
           bg-yellow-700
+          dark:bg-yellow-600
           cursor-pointer
           hidden
           text-3xl
@@ -215,6 +218,7 @@
           md:mr-10
           absolute
           bg-yellow-700
+          dark:bg-yellow-600
           cursor-pointer
           hidden
           text-3xl
@@ -297,6 +301,7 @@
           md:ml-10
           absolute
           bg-yellow-700
+          dark:bg-yellow-600
           cursor-pointer
           hidden
           text-3xl
@@ -325,6 +330,7 @@
           md:mr-10
           absolute
           bg-yellow-700
+          dark:bg-yellow-600
           cursor-pointer
           hidden
           text-3xl
@@ -407,6 +413,7 @@
           md:ml-10
           absolute
           bg-yellow-700
+          dark:bg-yellow-600
           cursor-pointer
           hidden
           text-3xl
@@ -435,6 +442,7 @@
           md:mr-10
           absolute
           bg-yellow-700
+          dark:bg-yellow-600
           cursor-pointer
           hidden
           text-3xl
