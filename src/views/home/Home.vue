@@ -1,7 +1,9 @@
 <template>
   <div class="home bg-gray-800 dark:bg-gray-100">
     <Carousel />
-    <div class="border-t-2 w-full border-yellow-700 dark:border-yellow-600"></div>
+    <div
+      class="border-t-2 w-full border-yellow-700 dark:border-yellow-600"
+    ></div>
     <div
       class="
         max-w-screen-xl
@@ -32,6 +34,7 @@
       </div>
     </div>
     <About />
+    <FAQs />
   </div>
 </template>
 
@@ -40,6 +43,7 @@ import Carousel from "@/components/share/Carousel";
 import HomeLeftSection from "@/components/share/HomeLeftSection";
 import HomeRightSection from "@/components/share/HomeRightSection";
 import About from "@/views/about/About";
+import FAQs from "@/components/FAQs/";
 
 export default {
   name: "Home",
@@ -48,6 +52,7 @@ export default {
     About,
     HomeLeftSection,
     HomeRightSection,
+    FAQs,
   },
 };
 </script>

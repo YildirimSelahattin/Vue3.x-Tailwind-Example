@@ -11,7 +11,7 @@
             no-underline
             hover:no-underline
             font-bold
-            text-gray-100 dark:text-yellow-600 text-2xl
+            text-yellow-700 dark:text-yellow-600 text-2xl
             mb-8
           "
           href="#"
