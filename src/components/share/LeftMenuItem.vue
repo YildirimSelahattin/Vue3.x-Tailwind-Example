@@ -10,7 +10,7 @@
         hover:underline
       "
     >
-      {/{LeftMenuItems}}
+      Ürün Kategorisi
     </p>
 </template>
 
