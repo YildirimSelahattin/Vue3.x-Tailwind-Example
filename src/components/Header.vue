@@ -1,6 +1,17 @@
 <template>
   <header>
-    <nav id="header" class="w-full z-30 top-0 py-1 border-b-2 border-yellow-700 dark:border-yellow-600 dark:bg-gray-100 bg-gray-900">
+    <nav
+      id="header"
+      class="
+        w-full
+        z-30
+        top-0
+        py-1
+        border-b-2 border-yellow-700
+        dark:border-yellow-600 dark:bg-gray-100
+        bg-gray-900
+      "
+    >
       <div
         class="
           w-full
@@ -12,7 +23,6 @@
           mt-0
           px-6
           py-3
-          
         "
       >
         <label for="menu-toggle" class="cursor-pointer md:hidden block">
@@ -45,7 +55,8 @@
                 items-center
                 justify-between
                 text-base
-                font-semibold text-gray-700
+                font-semibold
+                text-gray-700
                 pt-4
                 md:pt-0
               "
@@ -107,7 +118,7 @@
                 >
               </li>
               <li class="mt-3 ml-4">
-                        <Toggle/>
+                <Toggle />
               </li>
             </ul>
           </nav>
@@ -137,7 +148,7 @@
 import Toggle from "@/components/share/Toggle";
 export default {
   name: "MainHeader",
-    components: {
+  components: {
     Toggle,
   },
 };

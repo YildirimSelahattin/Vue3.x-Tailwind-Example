@@ -21,9 +21,7 @@
 <script>
 export default {
   name: "MoreButton",
-    components: {
-
-  },
+  components: {},
 };
 </script>
 

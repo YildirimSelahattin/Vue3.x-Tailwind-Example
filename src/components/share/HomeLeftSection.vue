@@ -46,9 +46,7 @@
 <script>
 export default {
   name: "HomeLeftSection",
-  components: {
-
-  },
+  components: {},
 };
 </script>
 

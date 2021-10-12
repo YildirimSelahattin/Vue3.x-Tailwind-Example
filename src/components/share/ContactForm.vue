@@ -107,7 +107,7 @@
       <div class="col-span-2 text-right">
         <input
           type="submit"
-          value="Submit"
+          value="Gönder"
           class="
             py-2
             px-4

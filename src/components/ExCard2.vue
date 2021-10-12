@@ -1,6 +1,15 @@
 <template>
-      <div
-    class="flex flex-col items-center sm:px-0 px-4 justify-center w-full max-w-lg mx-auto"
+  <div
+    class="
+      flex flex-col
+      items-center
+      sm:px-0
+      px-4
+      justify-center
+      w-full
+      max-w-lg
+      mx-auto
+    "
   >
     <img
       class="object-cover w-full rounded-md h-72 xl:h-80"
@@ -21,6 +30,4 @@ export default {
 };
 </script>
 
-<style>
-
-</style>
+<style></style>

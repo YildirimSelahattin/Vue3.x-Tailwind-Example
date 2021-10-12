@@ -3,7 +3,14 @@
     <div :class="[$route.name == 'Home' ? 'hidden' : '']">
       <TopSection />
     </div>
-    <section class="bg-gray-900 dark:bg-gray-100 py-8 " :class="[$route.name == 'Home' ? 'bg-gray-900 py-8 border-t-2 border-yellow-700 dark:border-yellow-600' : '']">
+    <section
+      class="bg-gray-900 dark:bg-gray-100 py-8"
+      :class="[
+        $route.name == 'Home'
+          ? 'bg-gray-900 py-8 border-t-2 border-yellow-700 dark:border-yellow-600'
+          : '',
+      ]"
+    >
       <div class="container py-8 px-6 mx-auto">
         <a
           class="
@@ -11,7 +18,9 @@
             no-underline
             hover:no-underline
             font-bold
-            text-yellow-700 dark:text-yellow-600 text-2xl
+            text-yellow-700
+            dark:text-yellow-600
+            text-2xl
             mb-8
           "
           href="#"

@@ -1,7 +1,14 @@
 <template>
   <div class="footer">
     <footer
-      class="bg-gray-900 dark:bg-gray-100 h-full mx-auto border-t-2 border-yellow-700 dark:border-yellow-600"
+      class="
+        bg-gray-900
+        dark:bg-gray-100
+        h-full
+        mx-auto
+        border-t-2 border-yellow-700
+        dark:border-yellow-600
+      "
       :class="[
         $route.name == 'About'
           ? 'bg-gray-900 h-full mx-auto border-t-2 border-yellow-700 dark:border-yellow-600'
@@ -16,20 +23,22 @@
           <div class="flex w-full lg:w-4/12">
             <div class="px-3 md:px-0">
               <h3 class="font-bold text-gray-900 invisible">About</h3>
-              <div class="pt-1 text-yellow-600 ">
+              <div class="pt-1 text-yellow-600">
                 Adres:
                 <p class="text-gray-200 dark:text-gray-800">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Similique exercitationem numquam eveniet ducimus.
                 </p>
               </div>
-              <div class="pt-2 text-yellow-600 ">
+              <div class="pt-2 text-yellow-600">
                 Telefon:
                 <p class="text-gray-200 dark:text-gray-800">0546 822 0444</p>
               </div>
               <div class="text-yellow-600 pt-2">
                 Mail:
-                <p class="text-gray-200 dark:text-gray-800">mgsmobilya.tr@gmail.com</p>
+                <p class="text-gray-200 dark:text-gray-800">
+                  mgsmobilya.tr@gmail.com
+                </p>
               </div>
             </div>
           </div>

@@ -1,6 +1,11 @@
 <template>
   <div class="switch">
-    <input v-on:click="darkMode()" type="checkbox" class="switch__input" id="Switch" />
+    <input
+      v-on:click="darkMode()"
+      type="checkbox"
+      class="switch__input"
+      id="Switch"
+    />
     <label class="switch__label" for="Switch">
       <span class="switch__indicator"></span>
       <span class="switch__decoration"></span>
@@ -10,10 +15,10 @@
 
 <script>
 export default {
-    name: "Toggle",
+  name: "Toggle",
   methods: {
     darkMode() {
-      document.documentElement.classList.toggle('dark')
+      document.documentElement.classList.toggle("dark");
     },
   },
 };
