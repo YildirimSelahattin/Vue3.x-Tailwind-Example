@@ -12,7 +12,7 @@
       SSS
     </h2>
     <ul class="flex items-start gap-8 flex-wrap">
-      <li class="w-2/5">
+      <li class="sm:w-5/12 w-full">
         <p class="text-lg font-medium leading-6 text-gray-100 dark:text-gray-900">
           What is a home energy rating?
         </p>
@@ -26,7 +26,7 @@
           </p>
         </div>
       </li>
-      <li class="w-2/5">
+      <li class="sm:w-5/12 w-full">
         <p class="text-lg font-medium leading-6 text-gray-100 dark:text-gray-900">
           Why do I need a 6 Star energy rating?
         </p>
@@ -38,7 +38,7 @@
           </p>
         </div>
       </li>
-      <li class="w-2/5">
+      <li class="sm:w-5/12 w-full">
         <p class="text-lg font-medium leading-6 text-gray-100 dark:text-gray-900">
           What is the general cost of an energy rating?
         </p>
@@ -50,7 +50,7 @@
           </p>
         </div>
       </li>
-      <li class="w-2/5">
+      <li class="sm:w-5/12 w-full">
         <p class="text-lg font-medium leading-6 text-gray-100 dark:text-gray-900">
           What information do I need to supply for an energy rating to be
           completed??
@@ -64,7 +64,7 @@
           </p>
         </div>
       </li>
-      <li class="w-2/5">
+      <li class="sm:w-5/12 w-full">
         <p class="text-lg font-medium leading-6 text-gray-100 dark:text-gray-900">
           Does building an extension need an energy rating?
         </p>
@@ -76,7 +76,7 @@
           </p>
         </div>
       </li>
-      <li class="w-2/5">
+      <li class="sm:w-5/12 w-full">
         <p class="text-lg font-medium leading-6 text-gray-100 dark:text-gray-900">
           What is the general cost of an energy rating?
         </p>
