@@ -136,7 +136,7 @@
               font-bold
               text-gray-800 text-xl
             "
-            ><img class="w-7/12" src="img/logo.png"
+            ><img class="w-7/12" src="img/logoo.png"
           /></router-link>
         </div>
       </div>

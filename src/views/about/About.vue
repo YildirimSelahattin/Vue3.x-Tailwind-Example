@@ -43,18 +43,20 @@
         </p>
       </div>
     </section>
+    <!--
         <Team />
+        -->
   </div>
 </template>
 
 <script>
 import TopSection from "@/components/TopSection";
-import Team from "@/components/share/Team";
+//import Team from "@/components/share/Team";
 export default {
   name: "About",
   components: {
     TopSection,
-    Team,
+    //Team,
   },
 };
 </script>
