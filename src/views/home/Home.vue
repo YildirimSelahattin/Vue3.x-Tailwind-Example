@@ -34,7 +34,6 @@
       </div>
     </div>
     <About />
-    <FAQs />
   </div>
 </template>
 
@@ -43,7 +42,7 @@ import Carousel from "@/components/share/Carousel";
 import HomeLeftSection from "@/components/share/HomeLeftSection";
 import HomeRightSection from "@/components/share/HomeRightSection";
 import About from "@/views/about/About";
-import FAQs from "@/components/FAQs/";
+//import FAQs from "@/components/FAQs/";
 
 export default {
   name: "Home",
@@ -52,7 +51,7 @@ export default {
     About,
     HomeLeftSection,
     HomeRightSection,
-    FAQs,
+    //FAQs,
   },
 };
 </script>
